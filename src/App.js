@@ -6,11 +6,13 @@ import './App.css'
 import Home from './pages/Home'
 import About from './pages/About'
 import NotFound from './pages/NotFound'
+import {GithubProvider} from './context/github/GithubContext'
 
 
 function App() {
   const title= "Github Finder"
   return (
+    <GithubProvider>
     <Router>
       <div className='container'>
         <Navbar title={title}/>
@@ -25,6 +27,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+    </GithubProvider>
   )
 }
 
