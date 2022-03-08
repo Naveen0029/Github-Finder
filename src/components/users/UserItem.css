@@ -1,0 +1,9 @@
+.UserItem{
+    display: flex;
+    flex-direction: row;
+    margin:20px;
+}
+.UserItemlink{
+    color: white;
+    text-decoration: none;
+}
