@@ -1,0 +1,48 @@
+.Container{
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.Image{
+    position: relative;
+}
+.Image img{
+    height: auto;
+    width: 100%;
+}
+.Details{
+    position: absolute;
+    top:15;
+    left:0;
+    right:0;
+    bottom: 0;
+}
+.userLink{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    border: 1px solid black;
+}
+p{
+    color: white;
+}
+.Row{
+    padding: 1vh;
+}
+
+.Subcontainer{
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.Subrow2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

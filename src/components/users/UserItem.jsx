@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 import './UserItem.css'
 
 function UserItem({user}) {
-    console.log(user.avatar_url);
+   
   return (
       
       <div className='UserItem'>
@@ -15,7 +15,7 @@ function UserItem({user}) {
 
           <div>
               <h1>{user.login}</h1>
-              <Link to={`/users/${user.login}`} className='UserItemlink'>Visit Profile</Link>
+              <Link to={`/user/${user.login}`} className='UserItemlink'>Visit Profile</Link>
 
           </div>
       </div>

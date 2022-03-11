@@ -1,0 +1,18 @@
+.UserSearch{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputText{
+
+   padding: 1vh;
+}
+
+.Btn1{
+    padding: 1vh;
+    background-color: black;
+    color: white;
+}
