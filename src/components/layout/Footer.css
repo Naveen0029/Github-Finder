@@ -1,8 +1,10 @@
 .footer{
+    margin-top:40vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: aqua;
+    
     
 }
 .footer h1{

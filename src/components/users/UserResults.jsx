@@ -21,7 +21,7 @@ function UserResults() {
           )
     }
     else{
-        return <h1><Spinner /></h1>
+        return <div className='UserResults'><h1><Spinner /></h1></div>
     }
   
 }

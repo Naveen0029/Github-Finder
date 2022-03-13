@@ -1,17 +1,25 @@
-.Container{
-    height:100vh;
+.BiggContainer{
+    margin-top: 10vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
+    
+}
+.Container{
+    
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+
     
 }
 .Image{
     position: relative;
 }
 .Image img{
-    height: auto;
+    height: 25em;
     width: 100%;
 }
 .Details{
@@ -35,14 +43,34 @@ p{
 }
 
 .Subcontainer{
-    height:50vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex-wrap: wrap;
     
 }
 .Subrow2{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.Container2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.Subrow_1,.Row1{
+    display: flex;
+    flex-wrap:wrap;
+}
+.Rowitem{
+    margin: 1vh;
+    padding:1vh;
+}
+
+.Fausers{
+    font-size:5vh;
+    color: rgb(239, 10, 247);
 }
